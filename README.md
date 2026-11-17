@@ -10,8 +10,8 @@ Group 8 project for our Software Engineering course.
 | 2 | OTUORIMUO KELVIN OGHENEYOLE | 25/2567 | @kevthecreator-wb | **Leader** |
 | 3 | TANIMOWO OBALOLUWA DAVID | 25/0174 | @tanimowoobaloluwadavid37-blipObal | Member |
 | 4 | AGBENIGA ANJOLAOLUWA | 25/0375 | @anjystar4 | Member |
-| 5 | OPANUGA IVAN OLUWATOMINI | 25/0807 | _add username_ | Member |
-| 6 | ONELE CHIKELUBA MICHAEL | 25/0836 | _add username_ | Member |
+| 5 | OPANUGA IVAN OLUWATOMINI | 25/0807 | null | Member |
+| 6 | ONELE CHIKELUBA MICHAEL | 25/0836 | null | Member |
 
 ## Branches
 
@@ -40,4 +40,3 @@ Group 8 project for our Software Engineering course.
 
 - Never push to `main` directly.
 - One person must review before a Pull Request is merged.
-- Tell Kelvin before you start a task.
