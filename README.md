@@ -11,7 +11,7 @@ Group 8 project for our Software Engineering course.
 | 3 | TANIMOWO OBALOLUWA DAVID | 25/0174 | @tanimowoobaloluwadavid37-blipObal | Member |
 | 4 | AGBENIGA ANJOLAOLUWA | 25/0375 | @anjystar4 | Member |
 | 5 | OPANUGA IVAN OLUWATOMINI | 25/0807 | @Ivski17 | Member |
-| 6 | ONELE CHIKELUBA MICHAEL | 25/0836 | null | Member |
+| 6 | ONELE CHIKELUBA MICHAEL | 25/0836 | @mickey05x | Member |
 
 ## Branches
 
