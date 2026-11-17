@@ -1,108 +1,43 @@
-# Software Engineering — Group 8 Project
+# Software Engineering — Group 8
 
-Course project repository for **Software Engineering, Group 8**.
-
-## Overview
-
-This repository holds the source code, documentation, and design artefacts for our
-group project. It is organised so every member can work in parallel without
-blocking each other, and so the lecturer/reviewer can follow the history.
-
-> Replace the sections below with your actual project details once the team has
-> agreed on the topic.
+Group 8 project for our Software Engineering course.
 
 ## Team
 
-| Name | Role | GitHub |
-| --- | --- | --- |
-| _TBD_ | Project Lead | `@username` |
-| _TBD_ | Backend | `@username` |
-| _TBD_ | Frontend | `@username` |
-| _TBD_ | QA / Testing | `@username` |
-| _TBD_ | Documentation | `@username` |
+| # | Name | Matric No. | GitHub | Role |
+| --- | --- | --- | --- | --- |
+| 1 | TELLA UTHMAN TIWATOPE | 25/1708 | @uthmannn | Member |
+| 2 | OTUORIMUO KELVIN OGHENEYOLE | 25/2567 | @kevthecreator-wb | **Leader** |
+| 3 | TANIMOWO OBALOLUWA DAVID | 25/0174 | @tanimowoobaloluwadavid37-blipObal | Member |
+| 4 | AGBENIGA ANJOLAOLUWA | 25/0375 | @anjystar4 | Member |
+| 5 | OPANUGA IVAN OLUWATOMINI | 25/0807 | _add username_ | Member |
+| 6 | ONELE CHIKELUBA MICHAEL | 25/0836 | _add username_ | Member |
 
-## Tech stack
+## Branches
 
-- _Language / runtime:_ TBD
-- _Framework:_ TBD
-- _Database:_ TBD
-- _Tooling:_ Git, GitHub Actions
+- `main` — final, working code
+- `dev` — where we do all our work
 
-## Getting started
+## How to work
 
-```bash
-# 1. Clone
-git clone https://github.com/<owner>/software-engineering-group-8.git
-cd software-engineering-group-8
+1. Clone the repo:
 
-# 2. Install dependencies (update for the chosen stack)
-# npm install   |   pip install -r requirements.txt   |   etc.
+   ```
+   git clone https://github.com/tanimowoobaloluwadavid37-blipObal/software-engineering-group-8.git
+   ```
 
-# 3. Run the project
-# npm run dev   |   python main.py   |   etc.
-```
+2. Start from `dev` and make your own branch:
 
-## Repository layout
+   ```
+   git checkout dev
+   git pull
+   git checkout -b feature/your-task
+   ```
 
-```
-.
-├── docs/          Project documentation, diagrams, meeting notes
-├── src/           Application source code
-├── tests/         Unit and integration tests
-└── README.md
-```
+3. When you finish, push your branch and open a Pull Request into `dev`.
 
-## Branching strategy
+## Rules
 
-| Branch | Purpose | Rules |
-| --- | --- | --- |
-| `main` | Stable, demo-ready code | Protected. Merges only from `dev` via pull request with at least 1 approval. |
-| `dev` | Integration branch for the team | All feature work merges here first. Must stay buildable. |
-
-Feature workflow:
-
-```bash
-git checkout dev
-git pull origin dev
-git checkout -b feature/<short-name>
-# ... commit your work ...
-git push -u origin feature/<short-name>
-# open a pull request into dev
-```
-
-Branch naming:
-
-- `feature/<name>` — new functionality
-- `fix/<name>` — bug fixes
-- `docs/<name>` — documentation only
-
-## Commit messages
-
-Use short, imperative summaries, optionally with a scope:
-
-```
-feat(auth): add email login
-fix(api): handle empty response
-docs(readme): add setup steps
-```
-
-## Working agreements
-
-1. Pull `dev` before starting any new work.
-2. Open a pull request for every change — no direct pushes to `main`.
-3. At least one teammate reviews before merge.
-4. Keep pull requests small and focused.
-5. Record decisions and meeting notes in `docs/`.
-
-## Deliverables checklist
-
-- [ ] Requirements specification
-- [ ] System design / architecture diagrams
-- [ ] Implementation
-- [ ] Test plan and test results
-- [ ] User documentation
-- [ ] Final presentation
-
-## Contact
-
-Group 8 — _add course code, lecturer, and team contact here._
+- Never push to `main` directly.
+- One person must review before a Pull Request is merged.
+- Tell Kelvin before you start a task.
